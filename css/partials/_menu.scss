@@ -1,6 +1,20 @@
 header{
     width: 100%;
     padding-top: 24px;
+
+
+    @include large{ 
+        position: fixed;
+        background-color: $green;
+        padding: 8px 16px;
+        top: 0;
+        left: 0;
+        z-index: 2;
+
+        path{
+            fill: $dark-blue;
+        }
+    }
 }
 
 .navbar{
@@ -13,26 +27,34 @@ header{
 
 .logo{
     width: 64px;
-}
 
-.burger{
-    cursor: pointer;
-    display: none;
+    @include large{
+        display:flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
 }
 
 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .nav-list{
     display: flex;
+    flex-direction: row;
     list-style: none;
     align-items: center;
 
     li{
         margin-left: 24px;
+    }
+
+    @include large{
+        display: none;
+        flex-direction: column;
     }
 }
 
@@ -50,14 +72,13 @@ header{
     }   
 }
 
-.toggle{
-    display: flex;
-}
-
 .nav-register{
     display: flex;
-    align-content: center;
     align-items: center;
+
+    @include large{
+        display: none;
+    }
 }
 
 .btn-login{
@@ -85,7 +106,17 @@ header{
     }
 }
 
+.btnMenu-open{
+    display: none;
+    width: 64px;
+    margin-right: -30px;
+    position: relative;
+    @include large{
+        display: block;
+        margin: initial;
 
-
-
-
+        rect{
+            fill: $dark-blue;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.retangle-inverse{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1000px;
+    height: 100vh;
+    background-color: $light-white;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);  
+}
+
+#presentation-register{
+    font-size: 80px;
+    margin-left: 0;
+    color: $dark-blue;
+    margin-top: 1vh;
+    margin-left: 15%;
+}
+
+#register-image{
+    margin-top: 10vh;
+    width: 65%;
+}
+
+.registers{
+    display: flex;
+}
+
+.camp{
+    font-size: 24px;
+    color: $dark-blue;
+    margin-top: 60px;
+    margin-left: 16%;
+}

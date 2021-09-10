@@ -11,7 +11,7 @@
     <script src="js/svg-inject.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 </head>
 <body>
@@ -20,21 +20,21 @@
    <header>
         <nav class="navbar">
             <div class="nav-menu">
-                <div class="logo">
-                    <img src="svg/LogoFiveMoney.svg" onload="SVGInject(this)"/>
-                </div>
-                <div class="burger active">
-                    <img src="svg/burguer.svg" onload="SVGInject(this)"/>
-                </div> 
+                    <div class="logo">
+                        <a href="Index.html">
+                        <img src="svg/LogoFiveMoney.svg" onload="SVGInject(this)" />
+                        </a>
+                    </div>
+                    <img class="btnMenu btnMenu-open" src="svg/burguer.svg" onload="SVGInject(this)"/>
                     <ul class="nav-list">
                         <li><a href="#" class="nav-links">Lorem</a></li>
                         <li><a href="#" class="nav-links">Ipsum</a></li>
-                        <li><a href="#" class="nav-links">Quem somos</a></li>
+                        <li><a href="quemsomos.html" class="nav-links">Quem somos</a></li>
                     </ul>
-                <div class="nav-register">
-                    <a href="#" class="btn-login">Login</a>
-                    <a href="#" class="btn-register">Cadastre-se</a>
-                </div>
+                    <div class="nav-register">
+                        <a href="login.html" class="btn-login">Login</a>
+                        <a href="cadastro.html" class="btn-register">Cadastre-se</a>
+                    </div>
             </div>
        </nav>
    </header>
@@ -44,7 +44,7 @@
    <section class="container">
        <div class="container-item-1">
             <div class="presentation">
-                <h1>Conheça a FiveMoney.</h1>
+                <h1>Conheça a FiveMoney</h1>
             </div>
                 <p class="paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -63,7 +63,7 @@
         </div>
         <div class="container-item-4" data-aos="fade-down" data-aos-duration="700">
             <div class="about">
-                <h1>A estratégia que faltava.</h1>
+                <h1 class="strategy">A estratégia que faltava</h1>
             </div>
             <p class="paragraph">
                 Lorem ipsum dolor sit amet, 

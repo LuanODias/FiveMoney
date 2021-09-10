@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | FiveMoney</title>
+
+    <!--=================== LINKS ===================-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/svg-inject.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--=================== HEADER ===================-->  
+    <section class="register">
+        <div class="retangle-inverse">
+            <h1 id="presentation-register">Cadastro</h1>
+                    <div class="inputs">
+                        <p class="camp">E-mail</p>
+                        <input type="email" name="email" class="input">
+                        <p class="camp">Usuário</p>
+                        <input type="text" name="user" class="input">
+                        <p class="camp">CNPJ</p>
+                        <input type="number" name="cnpj" class="input">
+                        <p class="camp">Senha</p>
+                        <input type="password" name="password" class="input">
+                        <p class="camp">Confirmar senha</p>
+                        <input type="password" name="confirm-password" class="input">
+                    </div>
+        </div>
+        <img id="register-image" src="svg/registerimage.svg" onload="SVGInject(this)"/>
+    </section>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-nr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | FiveMoney</title>
+
+    <!--=================== LINKS ===================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="js/svg-inject.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--=================== HEADER ===================-->  
+    <header>
+                <div class="logo-login">
+                    <a href="Index.html">
+                        <img src="svg/LogoFiveMoney.svg" onload="SVGInject(this)"/>
+                    </a>      
+    </header>
+    <!--=================== CONTAINER ===================-->
+    <section class="login">
+            <div class="retangle">
+                <h1 id="presentation">Login</h1>
+                <div class="logins">  
+                    <div class="inputs">
+                        <p class="inform">E-mail</p>
+                        <input type="email" name="email" class="input">
+                        <p class="inform">Senha</p>
+                        <input type="password" name="password" class="input">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="check" id="checkbox">
+                        <p id="remember">Lembre-se de mim</p>
+                    </div>
+                    <div class="button">
+                        <button class="btn-entrar">Entrar</button>
+                        <p id="forgot">Esqueci a senha</p>
+                    </div>
+                </div>
+                <div class="account">
+                    <p id="dnthave">Não possui conta?</p>
+                    <p id="invite">Cadastre-se</p>
+                </div>
+            </div> 
+                <img id="login-image" src="svg/loginimage.svg" onload="SVGInject(this)">
+    </section>
+
+</body>
+</html>

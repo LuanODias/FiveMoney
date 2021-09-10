@@ -1,0 +1,140 @@
+.register{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.retangle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 100vh;
+    background-color: $light-white;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);  
+    z-index: 1;
+}
+
+.logo-login{
+    position: absolute;
+    left: 6%;
+    z-index: 999;
+}
+
+#presentation{
+    font-size: 120px;
+    margin-left: 0;
+    color: $dark-blue;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.inform{
+    font-size: 32px;
+    color: $dark-blue;
+    margin-top: 60px;
+    margin-left: 16%;
+}
+
+.input{
+    margin-left: 16%;
+    width: 549px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px $dark-blue;
+    box-sizing: border-box;
+    font-size: 24px;
+
+    &:hover{
+        border-bottom: solid 3px $dark-blue;
+    }
+
+    &:focus{
+        outline: none;
+        border-bottom: solid 3px $dark-blue;
+    }
+}
+
+#checkbox{
+    transform: scale(105%);
+    margin-top: 12px;
+    margin-left: 16%;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 1px $dark-blue;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#remember{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.button{
+    margin-left: 33%;
+}
+
+.btn-entrar{
+    display: block;
+    width: 232px;
+    height: 88px;
+    margin-top: 5vh;
+    border-radius: 44px;
+    background-color: $dark-blue;
+    color: $light-white;
+    font-size: 40px;
+    cursor: pointer;
+    border: transparent;
+    transition: .3s ease;
+
+    &:hover{
+        background-color: $green;
+    }
+}
+
+#forgot{
+    cursor: pointer;
+    margin-left: 53px;
+    font-size: 18px;
+    transition: .45s ease;
+
+    &:hover{
+        color: $light-blue;
+    }
+}
+
+.account{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 28%;
+}
+
+#dnthave{
+    color: $dark-blue;
+    font-size: 24px;
+}
+
+#invite{
+    color: $green;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+    &:hover{
+        color: green;
+    }
+}
+
+#login-image{
+    position: absolute;
+    margin-left: 20%;
+}
